@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 
-import Card from './Card';
-import './Company.css';
+import Layout_Company from './Layout_Company';
+import '../css/Common.css';
+import '../css/Company.css';
 
 class Company extends Component {
 
@@ -30,6 +31,9 @@ class Company extends Component {
     this.props.history.push(`/company/${id}`);
   }
 
+
+
+
   render(){
 
     const {count, company } = this.state;
@@ -39,7 +43,7 @@ class Company extends Component {
         {company.map(value=>{
           return(
             <div onClick={this.companyDeatails.bind(this, value.id)}>
-                <Card info={value} />
+                <Layout_Company info={value} />
             </div>
           )
         })}

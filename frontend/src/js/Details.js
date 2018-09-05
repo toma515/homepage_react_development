@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 
+import Layout_Details from './Layout_Details';
+import '../css/Common.css';
+import '../css/Details.css';
+
 class Details extends Component {
 
   state = {
@@ -25,14 +29,11 @@ class Details extends Component {
 
   render(){
     const { details } = this.state;
+
     return(
       <div>
-        {details.map((value)=>{
-
-          return (
-            <div>{value.name}</div>
-          )}
-        )}
+            <Layout_Details info={details} />
+        {/* {details.name} */}
       </div>
 
 

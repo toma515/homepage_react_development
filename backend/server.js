@@ -16,7 +16,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 11,
       "favorite": 0,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "서울시 영등포구"
     },
     {
       "id": 2,
@@ -25,7 +26,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 36,
       "favorite": 1,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "서울시 강남구"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
-      "type": "앱개발자"
+      "type": "앱개발자",
+      "address" : "서울시 마포구"
     },
     {
       "id": 4,
@@ -43,7 +46,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
-      "type": "앱개발자"
+      "type": "앱개발자",
+      "address" : "서울시 마포구"
     },
     {
       "id": 5,
@@ -52,7 +56,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "서울시 강남구"
     },
     {
       "id": 6,
@@ -61,7 +66,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 26,
       "favorite": 0,
-      "type": "프론트엔드개발자"
+      "type": "프론트엔드개발자",
+      "address" : "서울시 서초구"
     },
     {
       "id": 7,
@@ -70,7 +76,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 13,
       "favorite": 0,
-      "type": "앱개발자"
+      "type": "앱개발자",
+      "address" : "서울시 용산구"
     },
     {
       "id": 8,
@@ -79,7 +86,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 10,
       "favorite": 0,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "서울시 강남구"
     },
     {
       "id": 9,
@@ -88,16 +96,18 @@ const company = {
       "rebate": 1500000,
       "recommendation": 2,
       "favorite": 0,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "성남시 분당구"
     },
     {
       "id": 10,
-      "name": "인플루엔셜",
+        "name": "인플루엔셜",
       "recruit": "웹 퍼블리셔(대리급)",
       "rebate": 1000000,
       "recommendation": 18,
       "favorite": 1,
-      "type": "프론트엔드개발자"
+      "type": "프론트엔드개발자",
+      "address" : "서울시 강남구"
     },
     {
       "id": 11,
@@ -106,7 +116,8 @@ const company = {
       "rebate": 500000,
       "recommendation": 22,
       "favorite": 0,
-      "type": "프론트엔드개발자"
+      "type": "프론트엔드개발자",
+      "address" : "서울시 중구"
     },
     {
       "id": 12,
@@ -115,7 +126,8 @@ const company = {
       "rebate": 1000000,
       "recommendation": 12,
       "favorite": 0,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "서울시 중구"
     },
     {
       "id": 13,
@@ -124,7 +136,8 @@ const company = {
       "rebate": 1500000,
       "recommendation": 2,
       "favorite": 1,
-      "type": "백엔드개발자"
+      "type": "백엔드개발자",
+      "address" : "성남시 분당구"
     }
   ]
 } ;
@@ -140,6 +153,6 @@ app.get('/company/:id', (req,res)=>{
   let result = data.filter((value, index)=>{
     return value.id === Number(company_id);
   });
-  
-  res.json({details : result });
+
+  res.json({details : result[0] });
 })

@@ -1,0 +1,11 @@
+.cp_card { width:25%; float:left; padding:10px; box-sizing: border-box; }
+.cp_item { border:1px solid #ddd; }
+
+.cp_photo { background:#ddd; height:185px; }
+.cp_info { padding:15px; border-bottom:1px solid #ddd; }
+.cp_opt { height:26px; overflow:hidden; padding:10px 15px; }
+.cp_recom { float:left; }
+.cp_favorite { float:right; width:20px; height:20px; color: #ddd; }
+.cp_favorite:hover { color: red; }
+
+h3 { text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden; }

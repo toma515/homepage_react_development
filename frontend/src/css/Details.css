@@ -1,0 +1,55 @@
+.dt_box1 {
+  width: 700px; float: left;
+   margin-right: 20px;
+}
+
+
+.dt_photo { background-image: url("../img.jpg");
+  background-size: cover; box-sizing: border-box;
+  height: 500px;  border : 1px solid #ddd;
+  margin-bottom: 20px; position: relative;}
+
+.dt_rebate {  height: 50px; padding: 10px 20px; line-height: 25px; color: white;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  position: absolute; bottom: 20px; left: 0; }
+
+.dt_detail { border : 1px solid #ddd; }
+.dt_title { border-bottom: 1px solid #ddd; height: 70px; padding:20px; }
+.dt_explan { padding:15px; height: 500px; }
+.dt_logo { width: 58px; height: 58px; border : 1px solid #ddd; float: left; }
+.dt_title2 { padding: 5px 10px; line-height: 28px; float: left; font-size: 15px; font-weight: bold;}
+
+.dt_box2 {
+  width: 298px; height: 110px; padding: 20px;  float: left;
+  border : 1px solid #ddd; position: relative;
+}
+.dt_btn { border : 1px solid #ddd; float: left; text-align: center;
+  border-radius: 5%;
+ }
+
+.dt_btn1, .dt_btn2 {
+    width:33px; height: 23px; padding : 10px 6px; vertical-align: middle;
+   font-size: 15px;
+}
+
+.dt_btn3, .dt_btn4 {
+  width:118px; height: 30px; padding : 10px 12px;
+  margin-top: 15px; font-size: 16px; line-height: 28px; font-weight: bold;
+}
+.dt_btn2{
+  float: right; text-align: center;
+}
+.dt_btn3{
+  clear: both; margin-right: 10px; border-color: #88f; color: #88f;
+}
+.dt_btn4{
+  border-color: #0d0; color: #fff ;background:#0d0;
+}
+
+.dt_favorite { color: #ddd; }
+
+.dt_favorite:hover { color: #f00; }
+
+.dt_bookmark { color: #ddd; }
+
+.dt_bookmark:hover { color: #00f; }
