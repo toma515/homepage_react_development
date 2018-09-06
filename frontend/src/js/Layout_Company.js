@@ -22,7 +22,7 @@ const Layout_Company = ({info, func}) =>{
           <div className="cp_recom" >
             {info.recommendation > 0 && <span>{info.recommendation} 명 추천 </span>}
           </div>
-          <FontAwesomeIcon icon="heart" size="2x" 
+          <FontAwesomeIcon icon="heart" size="2x"
             className="cp_favorite" style = {{color: bg}} />
           {/* <div className="cp_favorite" style = {{background: bg}}></div> */}
         </div>

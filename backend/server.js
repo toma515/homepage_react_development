@@ -16,6 +16,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 11,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "백엔드개발자",
       "address" : "서울시 영등포구"
     },
@@ -26,6 +27,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 36,
       "favorite": 1,
+      "bookmark" : 0,
       "type": "백엔드개발자",
       "address" : "서울시 강남구"
     },
@@ -36,6 +38,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
+      "bookmark" : 0,
       "type": "앱개발자",
       "address" : "서울시 마포구"
     },
@@ -46,6 +49,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
+      "bookmark" : 0,
       "type": "앱개발자",
       "address" : "서울시 마포구"
     },
@@ -56,6 +60,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 0,
       "favorite": 0,
+      "bookmark" : 0,
       "type": "백엔드개발자",
       "address" : "서울시 강남구"
     },
@@ -66,6 +71,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 26,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "프론트엔드개발자",
       "address" : "서울시 서초구"
     },
@@ -76,6 +82,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 13,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "앱개발자",
       "address" : "서울시 용산구"
     },
@@ -86,6 +93,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 10,
       "favorite": 0,
+      "bookmark" : 0,
       "type": "백엔드개발자",
       "address" : "서울시 강남구"
     },
@@ -96,6 +104,7 @@ const company = {
       "rebate": 1500000,
       "recommendation": 2,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "백엔드개발자",
       "address" : "성남시 분당구"
     },
@@ -106,6 +115,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 18,
       "favorite": 1,
+      "bookmark" : 0,
       "type": "프론트엔드개발자",
       "address" : "서울시 강남구"
     },
@@ -116,6 +126,7 @@ const company = {
       "rebate": 500000,
       "recommendation": 22,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "프론트엔드개발자",
       "address" : "서울시 중구"
     },
@@ -126,6 +137,7 @@ const company = {
       "rebate": 1000000,
       "recommendation": 12,
       "favorite": 0,
+      "bookmark" : 1,
       "type": "백엔드개발자",
       "address" : "서울시 중구"
     },
@@ -136,6 +148,7 @@ const company = {
       "rebate": 1500000,
       "recommendation": 2,
       "favorite": 1,
+      "bookmark" : 1,
       "type": "백엔드개발자",
       "address" : "성남시 분당구"
     }
